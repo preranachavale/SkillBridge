@@ -13,8 +13,15 @@ header{
   align-items:center; */
   flex-direction: row;
   
-  height:50px;
+  height:70px;
   background-color: #e9e5ed;
+  border: 2px solid rgb(249, 239, 250);
+  border-radius: 10px;
+  position: fixed;
+  top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 nav ul{
     display: flex;
@@ -40,6 +47,7 @@ header h1{
     margin-right: 200px;
     margin-left: 50px;
     margin-top: 10px;
+   text-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
 .nav{
     display: flex;
@@ -53,3 +61,176 @@ header h1{
 ul li a{
      color: black;
 }
+ul li a:hover{
+    font-weight: bolder;
+}
+
+
+
+nav ul li a{
+ 
+  
+ 
+  
+  
+
+  /* transition */
+  transition:color 1s ;
+}
+
+/* hover effect */
+nav ul li a:hover{
+  color:#2563eb;
+  font-size: large ;
+  
+ 
+
+}
+
+span{
+  color:#8612c4;
+  font-size:larger;
+}
+.hero{
+  margin-top: 150px;
+  margin-left: 60px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+   justify-content: space-between;
+  
+}
+/* .hero-image img{
+  align-self: flex-start;
+} */
+/* .hero .main{
+  line-height: 35px;
+  font-size: larger;
+
+} */
+.para p{
+  margin-top: 30px;
+  text-align: justify;
+  color:#444;
+  width:450px;
+  line-height: 25px;
+  font-size: larger;
+}
+.hero .buttons a{
+  background:#2563eb;
+  color:white;
+  padding:10px 18px;
+  border-radius:8px;
+  /* text-decoration:none; */
+  margin-left: 40px;
+  line-height: 80px;
+  
+   
+}
+
+.hero-image{
+    margin-top: 10px;   /* navbar पासून खाली */
+    margin-right: 60px; /* उजवीकडून थोडी जागा */
+}
+.hero-image img{
+   width: 400px;
+    /* max-width: 100%; */
+    border-radius: 20px;
+    /* box-shadow: 0 10px 25px rgba(0,0,0,0.15); */
+    margin-left: 50px;
+  
+    margin-right: 70px;
+  
+}
+/* #cards{
+  display: flex;
+  gap: 20px;
+
+}
+#cards .cards{
+  border: 1px solid black;
+  height: 150px;
+  width: 200px;
+  border-radius: 5px;
+  text-align: left;
+  
+  
+}
+.cards h3{
+  line-height: 20px;
+} */
+ /* Cards section */
+#cards{
+    display: flex;
+    justify-content:space-around;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin: 30px 40px;
+}
+
+/* Single card */
+.cards{
+    width: 280px;
+    background: #ffffff;
+    border: 1px solid #f1f1f5;
+    border-radius: 18px;
+    padding: 28px 24px;
+    box-shadow: 0 8px 24px rgba(15,23,42,0.06);
+    transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.cards:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 14px 30px rgba(7, 24, 59, 0.12);
+}
+
+/* Icons */
+.cards i{
+    width: 48px;
+    height: 48px;
+    background: #f3f0ff;
+    color: #5b3df5;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    margin-bottom: 18px;
+}
+
+/* Heading */
+.cards h3{
+    font-size: 20px;
+    color: #111827;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+/* Description */
+.cards p{
+    font-size: 15px;
+    line-height: 1.6;
+    color: #6b7280;
+}
+
+#footer{
+  background-color: #d6cedd;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 100%;      
+  left: 0%;
+  bottom: 0%;
+  height: 20px;
+  color: black;
+   z-index: 1000;
+}
+
+
+
+
+
+
+
+
