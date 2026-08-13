@@ -43,6 +43,12 @@ nav ul{
    
  
 }
+#start:hover{
+  color: #111827;
+  font-weight: bolder;
+  /* box-shadow: 0 8px 18px rgba(237, 15, 229, 0.25); */
+}
+
 header h1{
     margin-right: 200px;
     margin-left: 50px;
